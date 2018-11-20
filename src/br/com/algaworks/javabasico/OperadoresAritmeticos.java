@@ -1,10 +1,14 @@
 package br.com.algaworks.javabasico;
 
+import javax.swing.JOptionPane;
 
 public class OperadoresAritmeticos {
 
 	public static void main(String[] args) {
 		//preço dos 3 ultimos produtos vendidos
+		
+		JOptionPane dialogo = new JOptionPane("Digite o produto 1", null);
+		
 	  int produto1 =5;
 	  int produto2 = 8;
 	  int produto3 =12;
