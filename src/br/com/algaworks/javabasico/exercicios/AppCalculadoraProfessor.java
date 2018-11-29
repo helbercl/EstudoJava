@@ -12,6 +12,8 @@ public class AppCalculadoraProfessor {
 		System.out.println("Pi classe Math" + piMath);
 		System.out.println("Resultado com casas decimais: " + areaCirculo);
 		System.out.println("Resultado sem casas decimais: " + (int)areaCirculo);
+		
+		
 	}
 
 }
