@@ -1,9 +1,5 @@
 package br.com.algaworks.javabasico.exercicios;
 
-import java.util.Scanner;
-
-import javax.swing.text.StyledEditorKit.ForegroundAction;
-
 public class AppStrings {
 
     public static void main(String[] args) {
@@ -48,9 +44,9 @@ public class AppStrings {
          * extenso. Entre o número: 4571 Resultado: quatro, cinco, sete, um
          */
 
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Informe o numero inteiro : ");
-        Integer inteiro = entrada.nextInt();
+//        Scanner entrada = new Scanner(System.in);
+//        System.out.println("Informe o numero inteiro : ");
+//        //Integer inteiro = entrada.nextInt();
 
     }
 

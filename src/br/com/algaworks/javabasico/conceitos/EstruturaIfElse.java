@@ -31,7 +31,7 @@ public class EstruturaIfElse {
 		System.out.println("Cuidado Seu Peso!");
 
 		System.out.println("IMC :" + imc);
-
+		entrada.close();
 	}
 
 }

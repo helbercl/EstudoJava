@@ -4,12 +4,12 @@ public class ClassesBoxing {
 	
 	public static void main(String[] args) {
 		
-		int boxing,unboxing;
+		int boxing = 0,unboxing=0;
 		
 		Integer i = new Integer(10);
 		
 		unboxing = i;// tira do objeto e vincula a um tipo primitivo
-		
+		System.out.println(unboxing + "--"+boxing);
 		Integer i1=127;
 		Integer i2=127;
 		Integer i3=128;

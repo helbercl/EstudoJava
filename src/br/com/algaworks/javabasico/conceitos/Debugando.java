@@ -23,6 +23,7 @@ public class Debugando {
 			System.out.println(i);
 		}
 		System.out.println("Fim do Programa!");
+		entrada.close();
 
 	}
 

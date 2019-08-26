@@ -11,6 +11,7 @@ public class Arrays {
 			System.out.println("Informe as notas :");
 			Scanner entrada = new Scanner(System.in);
 			notas[j] = entrada.nextDouble();
+			entrada.close();
 		}
 
 		for (int i = 0; i < notas.length; i++) {

@@ -9,14 +9,14 @@ public class TiposPrimitivos {
 		boolean check = 4<3;
 		//variaveis ponto flutuante
 		float  f=(float) 0.0;
-		double d=0.00;
+		
 		//variaveis ponto flutuante
 		
 		char c='@';//entre aspas simples
 		
 		//variaveis inteiras
 		byte b=-9;
-		short s;
+	
 		int i=32000;
 		long l=64_0000;
 		//variaveis inteiras

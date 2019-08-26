@@ -14,6 +14,8 @@ public class Televisor {
 			System.out.println("Informe o volume:");
 			volume = entrada.nextInt();
 			mudarCanal(canal);
+			System.out.println(volume);
+			entrada.close();
 		}
 
 	}

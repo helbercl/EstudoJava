@@ -23,7 +23,7 @@ public class EscopoVariaveis {
 
 			System.out.println("Não. Se fizer isso, seu pai " + nomePai + " será preso!");
 		}
-
+      entrada.close();
 	}
 
 }

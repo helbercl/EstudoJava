@@ -35,6 +35,7 @@ public class OperadoresLogicos {
 		}
 
 		System.out.println("IMC :" + imc);
+		entrada.close();
 	}
 
 }
