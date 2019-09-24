@@ -2,7 +2,7 @@ package br.com.algaworks.javabasico.exercicios;
 
 import java.util.Scanner;
 
-public class Televisor {
+public class AppTelevisor {
 
 	public static void main(String[] args) {
 		Integer canal=0;Integer volume=0;
