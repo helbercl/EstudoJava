@@ -1,5 +1,6 @@
 package br.com.algaworks.exercicios.diversos;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class AppAgenda {
@@ -9,9 +10,7 @@ public class AppAgenda {
 	static Contatos[] vetorContatos;
 	static int qtdeContatos, menu = 0;
 
-	public static void main(String[] args) {
-		
-		
+	public static void main(String[] args) {		
 
 		System.out.println("Informe as opções desejadas : 1 - inserir , 2 - buscar , 3 - excluir");
 
@@ -20,7 +19,8 @@ public class AppAgenda {
 			adicionarContato();
 			break;
 		case 2:
-			buscarContato(nome);
+			String nome = entrada.next();
+			buscarContato( nome);
 			break;
 		case 3:
 			break;
@@ -32,8 +32,7 @@ public class AppAgenda {
 
 	private static void adicionarContato() {
 		
-		
-        contato = new Contatos();
+		contato = new Contatos();
         entrada = new Scanner(System.in);
 
 		System.out.println("Informe a quantidade de contatos para inserir :");
@@ -61,7 +60,8 @@ public class AppAgenda {
 	}
 
 	private static void buscarContato(String nome) {
-
+		 //for (String nome : vetorContatos) {}
+        //  vetorContatos[i].equals(contato.nome)=nome;
 	}
 
 }
