@@ -9,6 +9,7 @@ public class AppNumeroDescrescente {
 		System.out.println("Informe o numero inteiro:");
 		int numeroInteiro = entrada.nextInt();
 	    imprimir(numeroInteiro);
+	    entrada.close();
 		
 	}
 	

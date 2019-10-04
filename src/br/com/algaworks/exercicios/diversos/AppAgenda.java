@@ -2,7 +2,6 @@ package br.com.algaworks.exercicios.diversos;
 
 import java.util.Scanner;
 
-import com.sun.xml.internal.bind.v2.TODO;
 
 public class AppAgenda {
 
