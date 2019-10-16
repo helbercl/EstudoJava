@@ -108,7 +108,10 @@ public class AppAgenda {
 			System.out.println("Nenhuma informação foi inserida!");
 		} else {
 			for (int i = 0; i < vetorContatos.length; i++) {
-				System.out.println("Lista de Contatos :" + vetorContatos[i].nome + vetorContatos[i].email);
+				if (vetorContatos[i]!=null) {
+					System.out.println("Lista de Contatos :" + vetorContatos[i].nome + vetorContatos[i].email);	
+				}
+				
 			}
 		}
 	}
