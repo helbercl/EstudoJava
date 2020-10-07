@@ -13,10 +13,8 @@ public class EscopoVariaveisJava {
 		boolean podeDirigir = idade >= 18;
 
 		if (!podeDirigir) {
-
 			System.out.println("Nome do Pai :");
 			nomePai = entrada.next();
-
 		}
 
 		System.out.println("Voce pode dirigir ?");

@@ -4,7 +4,11 @@ package br.com.algaworks.javabasico.conceitos;
 public class OperadoresAtribuicao {
 
 	public static void main(String[] args) {
-		// operadores de atribuicao =,+=,-=,
+		/* operadores de atribuicao - atribui valor  
+		  Simbolos: =,+=,-=,*=,/=,%=
+		  será atribuido a variavel o calculo ao valor pre-existente		
+		*/
+		
 		int total = 10;
 		// total=total+3;
 		total += 3;
@@ -19,10 +23,12 @@ public class OperadoresAtribuicao {
 		System.out.println("Total " + total);// imprimi 1
 
 		/*
-		 * == equal to -- igual a != not equal to -- diferente de > greater than --
-		 * maior que < less than -- menor que >= greater than or equal to -- maior igual
-		 * a <= less than or equal to -- menor igual a
-		 * 
+		 * == equal to -- igual a 
+		 * != not equal to -- diferente de
+		 *  > greater than --  * maior que 
+		 *  < less than -- menor que 
+		 *  >= greater than or equal to -- maior ou  igual
+		 * a <= less than or equal to -- menor ou  igual a
 		 */
 		// operator relational e equality -igualdade e relacional
 		int value1 = 1;

@@ -23,7 +23,7 @@ public class ConversaoTipoPrimitivo {
 		
 			
 		double d = 20.5;// variavel de 64 bits
-    	float c = (float) d;//variavel 32 bits - converte em variavel com bit maior
+    	     float c = (float) d;//variavel 32 bits - converte em variavel com bit maior
 		System.out.println("Casting double(64 bits) to float(32bits): "+c);
 		
 		float w=934.5f;//variavel 32 bits - Todo literal quando colocamos ponto é do tipo double por isso devemos informar o tipo

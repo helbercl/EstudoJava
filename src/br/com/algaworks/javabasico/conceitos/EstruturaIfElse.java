@@ -17,6 +17,7 @@ public class EstruturaIfElse {
 		double altura = entrada.nextDouble();
 
 		double imc = peso / (altura * altura);
+		
 
 		if (imc < 18.5)
 			System.out.println("Peso Muito Baixo");
@@ -26,9 +27,9 @@ public class EstruturaIfElse {
 			System.out.println("Acima do Peso");
 		else if (imc >= 30 && imc < 40)
 			System.out.println("Obsidade Grave 1 ou 2!");
-		else
+		else {
 			System.out.println("Obsidade Morbida 3!");
-		System.out.println("Cuidado Seu Peso!");
+		    System.out.println("Cuidado Seu Peso!");}
 
 		System.out.println("IMC :" + imc);
 		entrada.close();

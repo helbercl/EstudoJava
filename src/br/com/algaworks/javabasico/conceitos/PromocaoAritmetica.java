@@ -8,12 +8,12 @@ public class PromocaoAritmetica {
 		int x = 10;
 		long y = 5;
 		// int z = x + y;
-		long z = x + y; // forma correta
+		int z = (int) (x + y); // forma correta
 		/*
 		 * a variavel x é promovida a long entretanto a variavel z é do tipo int como a
 		 * variavel long ocupa um espaço maior de memoria então não compila *
 		 */
-		System.out.println("Resultado :" + z);
+		System.out.println("Resultado z :" + z);
 		// normal - mesmo tipo
 
 		// exceção com ponto flutuante
@@ -21,7 +21,7 @@ public class PromocaoAritmetica {
 		float b = 9.34f;// 32 bits perde casas decimais
 		// long w = a * b; errado
 		float w = a * b; // certo
-		System.out.println("Resultado :" + w);
+		System.out.println("Resultado w:" + w);
 
 		int o = 3;
 		//float p = 2;
